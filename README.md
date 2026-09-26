@@ -2,7 +2,7 @@
 
 从概念到实践：学习上下文、工具、反馈循环与结果验证。
 
-更新日期：2026-09-26。学习材料：[第一章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter1.md)、[第二章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter2.md)、[第三章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter3.md)、[第四章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter4.md)、[第五章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter5.md)。第六章与第七章分别见下方新增笔记。本仓库是个人学习总结，不是原书转载，也不是框架官方文档。
+更新日期：2026-09-26。学习材料：[第一章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter1.md)、[第二章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter2.md)、[第三章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter3.md)、[第四章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter4.md)、[第五章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter5.md)。第六至八章分别见下方新增笔记。本仓库是个人学习总结，不是原书转载，也不是框架官方文档。
 
 ## 阅读顺序
 
@@ -20,6 +20,7 @@
 12. [第四、五章：实验覆盖与证据边界](12-chapter45-experiment-evidence.md)
 13. [第六章：交互、事件与持续变化的环境](13-chapter6-interaction.md)
 14. [第七章：评估、失败归因与可重复的改进](14-chapter7-evaluation.md)
+15. [第八章：模型后训练](15-chapter8-post-training.md)
 
 ## 我最重要的收获
 
@@ -42,6 +43,8 @@
 第四、五章在 2026-09-22 完成选定的机制实验：共 47 次真实模型请求，并执行 MCP 标准输入输出通信、生成代码、SQLite 查询、数据网关与浏览器表单验证。保留输出截断、参数约定不匹配和初版评分漏检等问题；逐项列出 21 个原书实验的覆盖情况，其中包含缩小改编及未执行项，不代表全部复现或全部通过。
 
 第六、七章于 2026-09-26 完成阅读笔记，结合已有学习经历解释交互与评估，并整理实验目标和后续路线；本次未执行这两章的实验，不把原书成绩计入个人结果。
+
+第八章于 2026-09-26 完成阅读笔记，整理 Mid-training、SFT、RL、奖励、蒸馏与训练验收；本次没有执行模型训练或本章基准实验。
 
 本仓库发布 Markdown 笔记，不附原始会话、凭据、机器路径或整套实验源码。因此它是学习记录，不是独立可运行的复现实验包。文中实验文件名用于说明本地证据类型，不代表这些文件已经上传。
 
