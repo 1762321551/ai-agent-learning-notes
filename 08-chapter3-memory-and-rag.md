@@ -1,6 +1,6 @@
 # 第三章学习笔记：记忆、知识库与检索
 
-学习日期：2026-09-19。根据[第三章原文](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter3.md)与本次真实运行整理。AI 辅助实验和写作。
+学习日期：2026-09-19。根据[第三章原文](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter3.md)与本次真实运行整理。这里记录我的理解、实验观察和需要继续核对的问题。
 
 **本次完成的是覆盖 12 个实验主题的缩小机制实验，不是原书 12 项验收全部通过。**原书要求的 60 个记忆用例、独立模型评委、Intel 完整资料与真实司法数据集没有完整复现。详见[实验结果与边界](09-chapter3-experiment-evidence.md)。
 
