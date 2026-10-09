@@ -1,6 +1,6 @@
 # 第七章：评估、失败归因与可重复的改进
 
-原阅读日期：2026-09-26；实验补做：2026-10-09。已完成[7-6原始日志独立离线归因](experiments/07-failure-attribution.md)，没有新运行AndroidWorld或多模型基准；前三个回归前缀未测新模型成绩。 来源：[固定版本正文](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter7.md)。本文为AI辅助笔记，实际操作由AI助手执行。
+原阅读日期：2026-09-26；实验补做：2026-10-09。已完成[7-6原始日志独立离线归因](experiments/07-failure-attribution.md)，没有新运行AndroidWorld或多模型基准；前三个回归前缀未测新模型成绩。 来源：[固定版本正文](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter7.md)。这里记录我的章节理解、实验观察和后续复习重点。
 
 ## 从“运行完成”到“任务成功”
 
