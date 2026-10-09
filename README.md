@@ -2,7 +2,28 @@
 
 从概念到实践：学习上下文、工具、反馈循环与结果验证。
 
-更新日期：2026-09-26。学习材料：[第一章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter1.md)、[第二章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter2.md)、[第三章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter3.md)、[第四章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter4.md)、[第五章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter5.md)。第六至八章分别见下方新增笔记。本仓库是个人学习总结，不是原书转载，也不是框架官方文档。
+更新日期：2026-10-09。学习材料：[《深入理解 AI Agent》十章目录](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/README.md)。全书十章的 Markdown 学习材料已补齐；个人独立掌握与正式实验验收仍需实践。本仓库是个人学习总结，AI 辅助整理。
+
+## 先读共学总章
+
+[总章：从“模型会回答”到“系统能交付”](18-co-learning-summary.md)把我们的聊天、库存与研究实验、评分修正和后续路线连成一篇完整总结。
+
+[全书学习完成表与 109 项实验索引](19-course-completion-checklist.md)按当前版本逐项列出主题和个人操作边界。109 是原书范围，不能作为个人通过数。
+
+## 十章导航
+
+| 章 | 主题 | 主笔记 | 实验与补充 |
+|---|---|---|---|
+| 1 | 入门 | [核心概念](01-concepts.md) | [消融](02-context-ablation.md)、[研究](03-research-workflow.md)、[反思](04-reflections.md) |
+| 2 | 上下文工程 | [学习笔记](05-chapter2-context-engineering.md) | [证据](06-chapter2-experiment-evidence.md)、[写作 Skill](07-chat-writing-skill.md) |
+| 3 | 记忆与知识库 | [学习笔记](08-chapter3-memory-and-rag.md) | [实验证据](09-chapter3-experiment-evidence.md) |
+| 4 | 工具 | [学习笔记](10-chapter4-tools.md) | [实验范围](12-chapter45-experiment-evidence.md) |
+| 5 | 代码与运行框架 | [学习笔记](11-chapter5-code-and-harness.md) | [实验范围](12-chapter45-experiment-evidence.md) |
+| 6 | 交互 | [学习笔记](13-chapter6-interaction.md) | 阅读与实验路线 |
+| 7 | 评估 | [学习笔记](14-chapter7-evaluation.md) | 已补当前 14 项阅读路线 |
+| 8 | 模型后训练 | [学习笔记](15-chapter8-post-training.md) | 阅读与训练验收设计 |
+| 9 | 持续进化 | [学习笔记](16-chapter9-continuous-evolution.md) | 9 项实验学习与验收路线 |
+| 10 | 多 Agent 协作 | [学习笔记](17-chapter10-multi-agent.md) | 6 项实验学习与验收路线 |
 
 ## 阅读顺序
 
@@ -21,6 +42,10 @@
 13. [第六章：交互、事件与持续变化的环境](13-chapter6-interaction.md)
 14. [第七章：评估、失败归因与可重复的改进](14-chapter7-evaluation.md)
 15. [第八章：模型后训练](15-chapter8-post-training.md)
+16. [第九章：持续进化](16-chapter9-continuous-evolution.md)
+17. [第十章：多 Agent 协作](17-chapter10-multi-agent.md)
+18. [共学总章](18-co-learning-summary.md)
+19. [全书学习完成表与实验索引](19-course-completion-checklist.md)
 
 ## 我最重要的收获
 
@@ -45,6 +70,8 @@
 第六、七章于 2026-09-26 完成阅读笔记，结合已有学习经历解释交互与评估，并整理实验目标和后续路线；本次未执行这两章的实验，不把原书成绩计入个人结果。
 
 第八章于 2026-09-26 完成阅读笔记，整理 Mid-training、SFT、RL、奖励、蒸馏与训练验收；本次没有执行模型训练或本章基准实验。
+
+第九、十章与共学总章于 2026-10-09 完成阅读整理。同步补入第七章当前目录的 7-12～7-14 路线，并按固定版本核对全部 109 个实验编号。本次没有新增正式实验运行，也没有重验全部历史原始日志；整理分工不作为多 Agent 性能对照。
 
 本仓库发布 Markdown 笔记，不附原始会话、凭据、机器路径或整套实验源码。因此它是学习记录，不是独立可运行的复现实验包。文中实验文件名用于说明本地证据类型，不代表这些文件已经上传。
 
