@@ -1,6 +1,6 @@
 # 第六章：交互、事件与持续变化的环境
 
-原阅读日期：2026-09-26；实验补做：2026-10-09。已完成[6-2四场景的本机适配实测](experiments/06-async-agent.md)，初次语言失败、修正及真实子进程记录均保留；其余语音/视觉/机器人实验未执行。 来源：[固定版本正文](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter6.md)。本文为AI辅助笔记，实际操作由AI助手执行。
+原阅读日期：2026-09-26；实验补做：2026-10-09。已完成[6-2四场景的本机适配实测](experiments/06-async-agent.md)，初次语言失败、修正及真实子进程记录均保留；其余语音/视觉/机器人实验未执行。 来源：[固定版本正文](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter6.md)。这里记录我的章节理解、实验观察和后续复习重点。
 
 ## 我对 Agent 的理解又增加了一层
 
