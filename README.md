@@ -2,13 +2,15 @@
 
 从概念到实践：学习上下文、工具、反馈循环与结果验证。
 
-更新日期：2026-10-09。学习材料：[《深入理解 AI Agent》十章目录](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/README.md)。全书十章的 Markdown 学习材料已补齐；个人独立掌握与正式实验验收仍需实践。本仓库是个人学习总结，AI 辅助整理。
+更新日期：2026-10-09。学习材料：[《深入理解 AI Agent》十章目录](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/README.md)。全书十章的 Markdown 学习材料已补齐；现已形成每章至少一个实际实验记录（含明确适配）；个人独立掌握仍需自测。本仓库是个人学习总结，AI 辅助整理。
 
 ## 先读共学总章
 
 [总章：从“模型会回答”到“系统能交付”](18-co-learning-summary.md)把我们的聊天、库存与研究实验、评分修正和后续路线连成一篇完整总结。
 
 [全书学习完成表与 109 项实验索引](19-course-completion-checklist.md)按当前版本逐项列出主题和个人操作边界。109 是原书范围，不能作为个人通过数。
+
+[每章至少一个实验：十章实测台账](20-one-experiment-per-chapter.md)汇总10章的实际运行、失败、复核和原版差距；第六至十章新增详细报告。
 
 ## 十章导航
 
@@ -19,11 +21,11 @@
 | 3 | 记忆与知识库 | [学习笔记](08-chapter3-memory-and-rag.md) | [实验证据](09-chapter3-experiment-evidence.md) |
 | 4 | 工具 | [学习笔记](10-chapter4-tools.md) | [实验范围](12-chapter45-experiment-evidence.md) |
 | 5 | 代码与运行框架 | [学习笔记](11-chapter5-code-and-harness.md) | [实验范围](12-chapter45-experiment-evidence.md) |
-| 6 | 交互 | [学习笔记](13-chapter6-interaction.md) | 阅读与实验路线 |
-| 7 | 评估 | [学习笔记](14-chapter7-evaluation.md) | 已补当前 14 项阅读路线 |
-| 8 | 模型后训练 | [学习笔记](15-chapter8-post-training.md) | 阅读与训练验收设计 |
-| 9 | 持续进化 | [学习笔记](16-chapter9-continuous-evolution.md) | 9 项实验学习与验收路线 |
-| 10 | 多 Agent 协作 | [学习笔记](17-chapter10-multi-agent.md) | 6 项实验学习与验收路线 |
+| 6 | 交互 | [学习笔记](13-chapter6-interaction.md) | [6-2实际异步实验](experiments/06-async-agent.md) |
+| 7 | 评估 | [学习笔记](14-chapter7-evaluation.md) | [7-6实际失败归因](experiments/07-failure-attribution.md) |
+| 8 | 模型后训练 | [学习笔记](15-chapter8-post-training.md) | [8-1实际Q-learning训练](experiments/08-q-learning.md) |
+| 9 | 持续进化 | [学习笔记](16-chapter9-continuous-evolution.md) | [9-6实际自修改适配](experiments/09-self-modification.md) |
+| 10 | 多 Agent 协作 | [学习笔记](17-chapter10-multi-agent.md) | [10-1实际角色对照](experiments/10-multi-role.md) |
 
 ## 阅读顺序
 
@@ -46,6 +48,7 @@
 17. [第十章：多 Agent 协作](17-chapter10-multi-agent.md)
 18. [共学总章](18-co-learning-summary.md)
 19. [全书学习完成表与实验索引](19-course-completion-checklist.md)
+20. [每章一个实验的实测台账与心得](20-one-experiment-per-chapter.md)
 
 ## 我最重要的收获
 
@@ -67,11 +70,11 @@
 
 第四、五章在 2026-09-22 完成选定的机制实验：共 47 次真实模型请求，并执行 MCP 标准输入输出通信、生成代码、SQLite 查询、数据网关与浏览器表单验证。保留输出截断、参数约定不匹配和初版评分漏检等问题；逐项列出 21 个原书实验的覆盖情况，其中包含缩小改编及未执行项，不代表全部复现或全部通过。
 
-第六、七章于 2026-09-26 完成阅读笔记，结合已有学习经历解释交互与评估，并整理实验目标和后续路线；本次未执行这两章的实验，不把原书成绩计入个人结果。
+第六、七章最初为阅读笔记；2026-10-09分别补做6-2真实异步Agent适配与7-6原日志独立离线归因。真实子进程、约束失败/修正、首错标注与引用验证都有本地证据。没有新跑AndroidWorld模拟器。
 
-第八章于 2026-09-26 完成阅读笔记，整理 Mid-training、SFT、RL、奖励、蒸馏与训练验收；本次没有执行模型训练或本章基准实验。
+第八章于2026-10-09新增8-1原版寻宝Q-learning：三个seed各10000训练局及各100局贪婪评估。更新的是Q表，没有执行LLM的Mid-training、SFT、蒸馏或RLHF。
 
-第九、十章与共学总章于 2026-10-09 完成阅读整理。同步补入第七章当前目录的 7-12～7-14 路线，并按固定版本核对全部 109 个实验编号。本次没有新增正式实验运行，也没有重验全部历史原始日志；整理分工不作为多 Agent 性能对照。
+第九、十章与共学总章于 2026-10-09 完成阅读整理。同步补入第七章当前目录的 7-12～7-14 路线，并按固定版本核对全部 109 个实验编号。随后按每章一个实验的要求补做9-6本机适配及10-1小样本真实模型对照，并复核前五章选定原始证据。未重跑全部109项；整理分工本身不作为多Agent性能对照。
 
 本仓库发布 Markdown 笔记，不附原始会话、凭据、机器路径或整套实验源码。因此它是学习记录，不是独立可运行的复现实验包。文中实验文件名用于说明本地证据类型，不代表这些文件已经上传。
 
