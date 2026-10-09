@@ -1,0 +1,321 @@
+{
+  "date": "2026-10-09",
+  "source_commit": "dbc046eb896ac4e39aa19c7774c8bf49583b89a6",
+  "chapter_coverage": 10,
+  "scope": "One actually executed experiment per chapter, including bounded adaptations; not 109 original acceptances.",
+  "chapter6": {
+    "calls": 23,
+    "http_200": 23,
+    "total_tokens": 31375,
+    "finish_length": 1
+  },
+  "chapter7": {
+    "task_blocks": 53,
+    "verifier_failures": 52,
+    "independent_annotations": 10,
+    "prefixes_constructed": 3,
+    "new_api_calls": 0,
+    "new_emulator_runs": 0
+  },
+  "chapter8": {
+    "seeds": [
+      7,
+      42,
+      20261009
+    ],
+    "training_episodes_total": 30000,
+    "greedy_wins_per_seed": [
+      100,
+      100,
+      100
+    ],
+    "greedy_steps": [
+      12,
+      12,
+      11
+    ],
+    "bfs_minimum_steps": 11,
+    "llm_training": false
+  },
+  "chapter9": {
+    "real_api_calls": 1,
+    "adapted_gates_passed": 14,
+    "docker_original_accepted": false
+  },
+  "chapter10": {
+    "real_api_calls": 29,
+    "formal_30_task_comparison": false
+  },
+  "first_five_rechecked": [
+    {
+      "chapter": 1,
+      "experiment": "1-1 inventory context ablation, A/B/C/E",
+      "checks": {
+        "four_actual_arms": true,
+        "all_wire_ok": true,
+        "wire_matches_model_calls": true,
+        "A_E_correct_B_C_incomplete": true,
+        "wire_tool_definition_ablation": true
+      },
+      "source_file_hashes": [
+        {
+          "name": "metrics.json",
+          "sha256": "f56dca7fc8b114b6975478029bd378f9e5a4dab11ea2e7981381c26014f9fdc1"
+        },
+        {
+          "name": "index.json",
+          "sha256": "ac1551275f582521cef3cdf07fed06b4a7b1148fb80f70a5bc91a1a52f02bced"
+        },
+        {
+          "name": "score-rescored.json",
+          "sha256": "0af831b3c57d80aa2bc43289bcfc410dd557eb0668227b5a5d8e8dc26d9d51d6"
+        },
+        {
+          "name": "wire-001.body.json",
+          "sha256": "53e037bf0502c9f650b8bfb17682b23ed3c866a49f4471cf23e8f5a31041ef28"
+        },
+        {
+          "name": "wire-002.body.json",
+          "sha256": "38004960d9e4a09648bfcce591528b8e63a4c51ec11ef3befc04ed013fde4697"
+        },
+        {
+          "name": "wire-003.body.json",
+          "sha256": "c49efd43743b9f2aa66fb768c8bdaa6482c67ac4c0299660933685e03f9be3ce"
+        },
+        {
+          "name": "metrics.json",
+          "sha256": "7b16a6992ffe319c47cf75d0247bb34357474983451d6278c36e7c7484a67966"
+        },
+        {
+          "name": "index.json",
+          "sha256": "ebdfd7cf06384707292543d99dfd845bfd4afdac4e87c645da66b15269df5880"
+        },
+        {
+          "name": "score-rescored.json",
+          "sha256": "c92062b035a1d4424cbf174328c2698d7feb0affbe1da0bc83d80614e64a3b00"
+        },
+        {
+          "name": "wire-001.body.json",
+          "sha256": "e145038235a25ad891916e8be106bc8d0f51bf7d24696696cceab0117c8586c0"
+        },
+        {
+          "name": "metrics.json",
+          "sha256": "d560e93bb3169ee574705388b71186de9e91dc271329fd75085790c41b64e471"
+        },
+        {
+          "name": "index.json",
+          "sha256": "e250cf3cd5a11f2cf4eedac0981c15529797bdaae69fc3c351787b6b70cc16e6"
+        },
+        {
+          "name": "score-rescored.json",
+          "sha256": "341c16039131cbf32bbfb2c334f6aae880810069a683dfdf9711a314bbc53910"
+        },
+        {
+          "name": "wire-001.body.json",
+          "sha256": "53e037bf0502c9f650b8bfb17682b23ed3c866a49f4471cf23e8f5a31041ef28"
+        },
+        {
+          "name": "wire-002.body.json",
+          "sha256": "e99b7d5c92eb30498e8be820704eca168d13bf437131072366318a0dcd417832"
+        },
+        {
+          "name": "wire-003.body.json",
+          "sha256": "2269fc01f3a8c28d62acf00d816c524a630e34f23a087085e9a564ac89276fe9"
+        },
+        {
+          "name": "wire-004.body.json",
+          "sha256": "abcebfe3780e892703022f70f8a4efa737567eb6f0f698c37068649e9ff73afc"
+        },
+        {
+          "name": "wire-005.body.json",
+          "sha256": "6ac7c6f2278c321d7fa415df4d98c7bcf71fa2f6504412d7692179ad387eeab9"
+        },
+        {
+          "name": "metrics.json",
+          "sha256": "38c9507577377ab78719168ab2bd1f42b12b7a71bef9b986f72604e37ac0d6d5"
+        },
+        {
+          "name": "index.json",
+          "sha256": "ac1551275f582521cef3cdf07fed06b4a7b1148fb80f70a5bc91a1a52f02bced"
+        },
+        {
+          "name": "score-rescored.json",
+          "sha256": "5fcc192ae9479c40b00b98498d927da14d63351ccdda237f102fc5cc01e112cc"
+        },
+        {
+          "name": "wire-001.body.json",
+          "sha256": "53e037bf0502c9f650b8bfb17682b23ed3c866a49f4471cf23e8f5a31041ef28"
+        },
+        {
+          "name": "wire-002.body.json",
+          "sha256": "b276b15c1a1d604dccec6f4ffb295fd9ae0761acdd78eea4ee7fc39dbe0fdb9e"
+        },
+        {
+          "name": "wire-003.body.json",
+          "sha256": "e1c1b5813dfc74a765a3aac2e9f76c61a88df1d080485a4ab120a7ad53df4eeb"
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "experiment": "2-2 attention visualization (local Qwen3-0.6B adaptation)",
+      "checks": {
+        "future_attention_zero": true,
+        "rows_sum_one": true,
+        "actual_visual_artifact": true
+      },
+      "source_file_hashes": [
+        {
+          "name": "2-2-attention.npz",
+          "sha256": "c85f31279f90b69972e0deb932a385bb48956d106928bde089357156e5fccbda"
+        },
+        {
+          "name": "2-2-attention.png",
+          "sha256": "8261c7802633ca367f6f1568cbf46d673d979bca8193b991b1167f05c2d19109"
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "experiment": "3-5 BM25 from scratch and hand calculation",
+      "checks": {
+        "hand_formula_matches": true,
+        "all_eight_query_scores_match": true
+      },
+      "source_file_hashes": [
+        {
+          "name": "bm25-handcheck.json",
+          "sha256": "975da9ae5a2d9288dac454c869f6368eafc55e97eb7253252bceea4ac425a7e2"
+        },
+        {
+          "name": "retrieval.json",
+          "sha256": "b2d3d413a86e64b45db476dd5d8d76234d85b9359bbae9e2bb1658deee995861"
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "experiment": "4-1 tool discovery, 123 fixed synthetic tool schemas",
+      "checks": {
+        "six_units_actual_http200": true,
+        "all_units_have_stock_and_lead": true
+      },
+      "source_file_hashes": [
+        {
+          "name": "discovery-all-0-trace.json",
+          "sha256": "2bfcd2ab1f290ebcbd4959540281222776e624e6024f9134c83950fd0874c049"
+        },
+        {
+          "name": "discovery-all-0-0.json",
+          "sha256": "8c837b2034bd61bcce7150685f871a35dcb3e0ee4383ff8c4fee764bc8c9ca99"
+        },
+        {
+          "name": "discovery-all-0-1.json",
+          "sha256": "05b7e348740666d4e2ab8a8620d7378dfce2927c2f3791f5cb33f74dfd14e7e2"
+        },
+        {
+          "name": "discovery-discover-0-trace.json",
+          "sha256": "dc886f6ee11811aa151b2d574435023f3131f9eb9c16133649ba3f2fed5dea32"
+        },
+        {
+          "name": "discovery-discover-0-0.json",
+          "sha256": "b6ac0fc6aeb1bfcea44fc8764977399e5b347f75a1c6eb5403336d6ee5b6e2bf"
+        },
+        {
+          "name": "discovery-discover-0-1.json",
+          "sha256": "deb3ef37724274da366209bf5b2969c100ab3d4b327e036aa6498f7330f2da6c"
+        },
+        {
+          "name": "discovery-discover-0-2.json",
+          "sha256": "9abf296a00f86e35fe25ba2927c25fda38d65344ef78283ba1c6aeab50669da9"
+        },
+        {
+          "name": "discovery-all-1-trace.json",
+          "sha256": "b643068ff39db25dcf36e0479eb6732736f674c9fccd2e386ed1f15130280d30"
+        },
+        {
+          "name": "discovery-all-1-0.json",
+          "sha256": "17ef684dda8be12695337cd3e83be8436a9ba66cd2cbc01c58fb908eeb8fd326"
+        },
+        {
+          "name": "discovery-all-1-1.json",
+          "sha256": "f35bed15a8e6389c8bdb1dfd452186974178f167dbf7a001cc0a066aa01bb05e"
+        },
+        {
+          "name": "discovery-discover-1-trace.json",
+          "sha256": "63b4fd6b35bc0eea74e88f128b68b735aaeea8746ea07a1028b513b223e04ba5"
+        },
+        {
+          "name": "discovery-discover-1-0.json",
+          "sha256": "b96470df90800164789351d0fd08018d6bfdd7e73deec167e0fcf63cd2717ce6"
+        },
+        {
+          "name": "discovery-discover-1-1.json",
+          "sha256": "74eb2ad382b8dc38247b39c478eb47ebf310cef369b45925ab430a86c4274807"
+        },
+        {
+          "name": "discovery-discover-1-2.json",
+          "sha256": "4e80dcea39915b0c9e5c12ddaca3306bd7f6f2405b6bd02a3ec4ece7e2b3e1e6"
+        },
+        {
+          "name": "discovery-all-2-trace.json",
+          "sha256": "888fd381391b16b7a59afb8fd910b0302befbc4ed0a9b10f3f738485f588cbb0"
+        },
+        {
+          "name": "discovery-all-2-0.json",
+          "sha256": "0f0c07b0214fe3ce5fcc31370d0cd0e2d02fd2846d00860ede99b2062a8ab707"
+        },
+        {
+          "name": "discovery-all-2-1.json",
+          "sha256": "3dae49f07c0c00a94e1e5ae80627379de86108ea0f5063cdeaa18b0bf426cabf"
+        },
+        {
+          "name": "discovery-discover-2-trace.json",
+          "sha256": "78fc6eedba703815437ba5ed0c29c6fd6340a46ebdfbe521a4735f10a2c5cec4"
+        },
+        {
+          "name": "discovery-discover-2-0.json",
+          "sha256": "4b1b60c7ede8ee09d7bf3a273ce3dd79f02aa5f8536af21c237815493d93bcb4"
+        },
+        {
+          "name": "discovery-discover-2-1.json",
+          "sha256": "8a0ac242ac7327f8b3d4cee0ff7cc0cde6d7115d7b314c487a592f4c3fc20074"
+        },
+        {
+          "name": "discovery-discover-2-2.json",
+          "sha256": "d37ceaf0515e90449b26c4ed8aa2a00ea3a67941a62e1794c91cfd2935fad55d"
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "experiment": "5-13 ERP SQL, SQLite three-query adaptation",
+      "checks": {
+        "all_three_read_only_replays_correct": true,
+        "original_real_http200": true
+      },
+      "source_file_hashes": [
+        {
+          "name": "erp.sqlite",
+          "sha256": "45df13da7dc375f2623a25564e47b7a5c4f80276119e5fcede3ee414318d9c5c"
+        },
+        {
+          "name": "sql-verification.json",
+          "sha256": "fca546f4752183fddd0c8dfabe1b8e35fe33cd6b20721ae298c3d875d8c83953"
+        },
+        {
+          "name": "sql-active.json",
+          "sha256": "9c093c2178fa5aacddb650e6294af7f58faa8d89e3a95f02621062bed15d8d33"
+        },
+        {
+          "name": "sql-tenure.json",
+          "sha256": "cda1ab938d36b131d35d6fb2a44f949b6d74b2f29e53bf27f099f557b1684158"
+        },
+        {
+          "name": "sql-pay.json",
+          "sha256": "d38ab1773d33d5ab3f0a42acecb08cc806726e773a92803c141fef77e58728f1"
+        }
+      ]
+    }
+  ]
+}
