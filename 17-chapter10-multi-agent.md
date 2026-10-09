@@ -1,6 +1,6 @@
 # 第十章：多 Agent 协作——把分工、交接和验证做成系统
 
-阅读与实验日期：2026-10-09。已完成[10-1角色切换vsSkill的两任务真实模型适配对照](experiments/10-multi-role.md)，包括预算耗尽未交付的失败；原书30对正式研究未复现。用于整理笔记的助手分工仍不计入这个对照。 来源：[固定版本正文](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter10.md)。本文为AI辅助笔记，实际操作由AI助手执行。
+阅读与实验日期：2026-10-09。已完成[10-1角色切换vsSkill的两任务真实模型适配对照](experiments/10-multi-role.md)，包括预算耗尽未交付的失败；原书30对正式研究未复现。材料整理不计入实验对照。 来源：[固定版本正文](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter10.md)。这里记录我的章节理解、实验观察和后续复习重点。
 
 ## 从“同一次调用多个工具”到“多个 Agent 分工”
 
