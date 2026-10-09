@@ -1,6 +1,6 @@
 # 第八章：模型后训练——从修提示词到改变模型行为
 
-原阅读日期：2026-09-26；实验补做：2026-10-09。已完成[8-1原版寻宝Q-learning训练与评估](experiments/08-q-learning.md)；更新的是Q表，没有运行LLM的SFT、蒸馏或RLHF。文中的库存微调案例仍是教学设计。 来源：[固定版本正文](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter8.md)。本文为AI辅助笔记，实际操作由AI助手执行。
+原阅读日期：2026-09-26；实验补做：2026-10-09。已完成[8-1原版寻宝Q-learning训练与评估](experiments/08-q-learning.md)；更新的是Q表，没有运行LLM的SFT、蒸馏或RLHF。文中的库存微调案例仍是教学设计。 来源：[固定版本正文](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter8.md)。这里记录我的章节理解、实验观察和后续复习重点。
 
 ## 与前面七章怎样连起来
 
