@@ -1,6 +1,6 @@
 # 第四章：工具设计与真正的执行边界
 
-日期：2026-09-22。学习来源：[第四章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter4.md)。AI 辅助实验与撰写。完整覆盖情况见[实验附录](12-chapter45-experiment-evidence.md)。
+日期：2026-09-22。学习来源：[第四章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter4.md)。这里记录我的学习理解与实验观察。完整覆盖情况见[实验附录](12-chapter45-experiment-evidence.md)。
 
 ## 从“模型是模型，工具是工具”继续往下想
 
