@@ -1,6 +1,6 @@
 # 第六章实验 6-2：真实异步任务、打断与约束合并
 
-执行日期：2026-10-09。执行者：Codex AI 助手。[原项目](https://github.com/bojieli/ai-agent-book/tree/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/chapter6/async-agent)。
+执行日期：2026-10-09。[原项目](https://github.com/bojieli/ai-agent-book/tree/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/chapter6/async-agent)。
 
 **四个原场景已实际运行；本机 DeepSeek 适配实验完成，初次失败和两轮修正均保留。** 直接使用固定版本 Flux 的 runtime、TaskManager、events 和 analysis_worker；模型替换为已有的 `deepseek-official / deepseek-flash`，通过兼容 Chat Completions 的记录适配器接入。没有模拟模型回答，也没有让脚本代替模型选择查询或取消。
 
