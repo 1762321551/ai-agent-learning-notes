@@ -1,6 +1,6 @@
 # 第五章：代码能力、运行框架与结果验证
 
-日期：2026-09-22。学习来源：[第五章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter5.md)。AI 辅助实验与撰写。覆盖范围见[实验附录](12-chapter45-experiment-evidence.md)。
+日期：2026-09-22。学习来源：[第五章](https://github.com/bojieli/ai-agent-book/blob/main/book/chapter5.md)。这里记录我的学习理解与实验观察。覆盖范围见[实验附录](12-chapter45-experiment-evidence.md)。
 
 ## 代码把模型的想法变成可检查的过程
 
