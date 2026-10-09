@@ -16,7 +16,7 @@
 
 原项目要求候选在无网络、只读、资源受限的 Docker 容器中运行。本机未发现 Docker 命令。实际调用原 `validate_candidate`，其 `sandbox_execution=false`，随后行为/灰度/回滚门均未通过；原路径关闭失败并拒绝候选。结果保存在 `original-docker-gate.json`。
 
-我们没有把 AST 静态检查标成容器隔离。适配执行器把一小部分 Python 语法当作纯策略语言，逐节点计算条件、比较和返回值，**没有 exec/eval 候选源码**。原 `sandbox_runner.py` 中的行为断言原样保留，运行时仅把其源码执行入口换成这个受限解释器。适配证据把执行项命名为 `bounded_interpreter_execution`。
+这里将 AST 静态检查与容器隔离分别记录。适配执行器把一小部分 Python 语法当作纯策略语言，逐节点计算条件、比较和返回值，**没有 exec/eval 候选源码**。原 `sandbox_runner.py` 中的行为断言原样保留，运行时仅把其源码执行入口换成这个受限解释器。适配证据把执行项命名为 `bounded_interpreter_execution`。
 
 因此本次证明的是狭窄策略语言中的提案—验证闭环；没有证明任意模型生成 Python 能在宿主机安全运行，也没有完成原容器网络、权限与资源限制验收。
 
