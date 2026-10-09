@@ -1,6 +1,6 @@
 # 第九章：持续进化——让经验改变下一次行动
 
-阅读与实验日期：2026-10-09。已完成[9-6真实模型提案、同门回归、合成灰度与回滚的本机适配](experiments/09-self-modification.md)。Docker原版本未完整复跑，未部署生产服务或证明长期进化。 来源：[固定版本正文](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter9.md)。本文为AI辅助笔记，实际操作由AI助手执行。
+阅读与实验日期：2026-10-09。已完成[9-6真实模型提案、同门回归、合成灰度与回滚的本机适配](experiments/09-self-modification.md)。Docker原版本未完整复跑，未部署生产服务或证明长期进化。 来源：[固定版本正文](https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter9.md)。这里记录我的章节理解、实验观察和后续复习重点。
 
 [返回目录](README.md) · 关联：[上下文消融](02-context-ablation.md)、[第四、五章实验边界](12-chapter45-experiment-evidence.md)、[模型后训练](15-chapter8-post-training.md)
 
