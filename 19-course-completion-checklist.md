@@ -4,7 +4,7 @@
 
 ## 本次完成的范围
 
-十章 Markdown 学习笔记、独立共学总章和全书索引已整理齐备。这里的阅读完成指材料已整理，个人独立掌握情况尚待自测。历史操作仅依据已有笔记归档，本次没有重跑全部实验或逐项核验原始日志。
+十章 Markdown 学习笔记、独立共学总章和全书索引已整理齐备。这里的阅读完成指材料已整理，个人独立掌握情况尚待自测。已补足[每章至少一个实际实验](20-one-experiment-per-chapter.md)：前五章选定证据独立复核，第六至十章新增操作；没有重跑全部109项。
 
 原书固定版本为 `dbc046eb896ac4e39aa19c7774c8bf49583b89a6`，正文实验编号逐项提取并检查连续性，章内数量为 4、10、12、5、16、14、14、19、9、6，合计 109。这个数字表示原书学习范围，不能作为个人通过数。
 
@@ -12,23 +12,23 @@
 
 | 章 | 主题 | 学习材料 | 个人实验范围 |
 |---|---|---|---|
-| 1 | 入门与闭环 | [概念](01-concepts.md)、[消融](02-context-ablation.md)、[研究](03-research-workflow.md)、[反思](04-reflections.md) | 消融与研究的历史机制改编；原版仍有未执行项 |
-| 2 | 上下文工程 | [笔记](05-chapter2-context-engineering.md)、[证据](06-chapter2-experiment-evidence.md)、[Skill](07-chat-writing-skill.md) | 十主题历史操作或改编；原验收缺项保留 |
-| 3 | 记忆与知识库 | [笔记](08-chapter3-memory-and-rag.md)、[证据](09-chapter3-experiment-evidence.md) | 十二主题小规模机制改编 |
-| 4 | 工具 | [笔记](10-chapter4-tools.md)、[范围](12-chapter45-experiment-evidence.md) | 部分、缩小及本地状态演示 |
-| 5 | 代码与运行框架 | [笔记](11-chapter5-code-and-harness.md)、[范围](12-chapter45-experiment-evidence.md) | 部分、缩小及未执行项目 |
-| 6 | 交互 | [笔记](13-chapter6-interaction.md) | 阅读与路线；正式实验未执行 |
-| 7 | 评估 | [笔记](14-chapter7-evaluation.md) | 阅读与路线；正式实验未执行；新增三项已补索引 |
-| 8 | 模型后训练 | [笔记](15-chapter8-post-training.md) | 阅读与路线；无训练/蒸馏实测 |
-| 9 | 持续进化 | [笔记](16-chapter9-continuous-evolution.md) | 本次阅读；无自动进化实验验收 |
-| 10 | 多 Agent 协作 | [笔记](17-chapter10-multi-agent.md) | 本次阅读；整理分工不计入原书对照 |
+| 1 | 入门与闭环 | [概念](01-concepts.md)、[消融](02-context-ablation.md)、[研究](03-research-workflow.md)、[反思](04-reflections.md) | 1-1库存适配已完成，原始证据复核；其他缺项保留 |
+| 2 | 上下文工程 | [笔记](05-chapter2-context-engineering.md)、[证据](06-chapter2-experiment-evidence.md)、[Skill](07-chat-writing-skill.md) | 2-2本地注意力适配已完成并核验；其他历史范围保留 |
+| 3 | 记忆与知识库 | [笔记](08-chapter3-memory-and-rag.md)、[证据](09-chapter3-experiment-evidence.md) | 3-5自写BM25已实际执行并独立重算 |
+| 4 | 工具 | [笔记](10-chapter4-tools.md)、[范围](12-chapter45-experiment-evidence.md) | 4-1主动工具发现缩小对照已完成并复核 |
+| 5 | 代码与运行框架 | [笔记](11-chapter5-code-and-harness.md)、[范围](12-chapter45-experiment-evidence.md) | 5-13 SQLite三查询适配已完成，重新只读执行 |
+| 6 | 交互 | [笔记](13-chapter6-interaction.md) | 6-2真实模型四场景适配已完成，失败/修正保留 |
+| 7 | 评估 | [笔记](14-chapter7-evaluation.md) | 7-6原日志离线分析已完成；其余基准未新运行 |
+| 8 | 模型后训练 | [笔记](15-chapter8-post-training.md) | 8-1原环境Q-learning已训练评估；无LLM微调 |
+| 9 | 持续进化 | [笔记](16-chapter9-continuous-evolution.md) | 9-6受限执行器适配已完成；原Docker未复跑 |
+| 10 | 多 Agent 协作 | [笔记](17-chapter10-multi-agent.md) | 10-1两任务真实对照适配已完成，保留未交付单元 |
 
 ## 状态怎样解释
 
 - **历史机制改编/缩小对照**：已有实际操作记录，规模、模型、环境或目标有差异，具体失败见证据笔记。
 - **部分/状态演示/功能产物**：只验证若干组件或功能，未覆盖原书端到端验收。
 - **未执行**：没有相应正式运行记录；阅读、安装、编写草稿和普通浏览器发布不计作通过。
-- **完整原验收**：需要逐项满足原任务及验收条件。本清单未据现有材料给任何项目补授此标签。
+- **完整原验收**：需要逐项满足原任务及验收条件。8-1已直接运行原环境与算法；7-6按原书离线流程完成。其他选定本机实验继续保留适配标签，不扩大成原版全量验收。
 
 工具可用、HTTP 正常、任务结束、离线流程检查通过和业务答案正确分别记录。更新读书范围不会倒改历史成绩。
 
@@ -42,7 +42,7 @@
 
 | 编号 | 原书主题 | 个人操作边界 | 记录入口 |
 |---|---|---|---|
-| 1-1 | 上下文的关键作用 | 历史机制改编；A/B/C/E 单次，D 未测试 | [笔记](02-context-ablation.md) |
+| 1-1 | 上下文的关键作用 | 库存A/B/C/E适配已完成并复核，D未测 | [本轮台账](20-one-experiment-per-chapter.md) |
 | 1-2 | Kimi K3 原生 Agent 能力 | 未执行原版任务 | 无个人运行记录 |
 | 1-3 | GPT-5.6 原生 Deep Research 能力 | 历史研究流程改编；非托管研究复现 | [笔记](03-research-workflow.md) |
 | 1-4 | 文生图工作流与原生图像生成的对照 | 未执行原版对照 | 无个人运行记录 |
@@ -54,7 +54,7 @@
 | 编号 | 原书主题 | 个人操作边界 | 记录入口 |
 |---|---|---|---|
 | 2-1 | 本地 LLM 服务部署与工具调用 | 历史缩小机制改编；完整原验收未完成 | [笔记](06-chapter2-experiment-evidence.md) |
-| 2-2 | 注意力机制可视化 | 历史缩小机制改编；完整原验收未完成 | [笔记](06-chapter2-experiment-evidence.md) |
+| 2-2 | 注意力机制可视化 | 本地Qwen3-0.6B适配已完成，真实张量/图像核验 | [本轮台账](20-one-experiment-per-chapter.md) |
 | 2-3 | 常见的错误上下文管理模式 | 历史缩小机制改编；完整原验收未完成 | [笔记](06-chapter2-experiment-evidence.md) |
 | 2-4 | 提示工程的消融实验 | 历史缩小机制改编；完整原验收未完成 | [笔记](06-chapter2-experiment-evidence.md) |
 | 2-5 | 提示注入攻防实验 | 历史缩小机制改编；完整原验收未完成 | [笔记](06-chapter2-experiment-evidence.md) |
@@ -74,7 +74,7 @@
 | 3-2 | 记忆策略的对比实验研究 | 历史缩小机制改编；完整原验收未完成 | [笔记](09-chapter3-experiment-evidence.md) |
 | 3-3 | 基于本地模型的智能日志脱敏 | 历史缩小机制改编；完整原验收未完成 | [笔记](09-chapter3-experiment-evidence.md) |
 | 3-4 | 构建向量检索服务：ANN 索引算法的比较研究 | 历史缩小机制改编；完整原验收未完成 | [笔记](09-chapter3-experiment-evidence.md) |
-| 3-5 | 探究稀疏检索：从零实现 BM25 搜索引擎 | 历史缩小机制改编；完整原验收未完成 | [笔记](09-chapter3-experiment-evidence.md) |
+| 3-5 | 探究稀疏检索：从零实现 BM25 搜索引擎 | 小语料BM25已完成，手算及8查询独立复核 | [本轮台账](20-one-experiment-per-chapter.md) |
 | 3-6 | 混合检索流水线：结合稀疏、稠密与重排序 | 历史缩小机制改编；完整原验收未完成 | [笔记](09-chapter3-experiment-evidence.md) |
 | 3-7 | 结构化索引：RAPTOR 与 GraphRAG 的知识组织哲学 | 历史缩小机制改编；完整原验收未完成 | [笔记](09-chapter3-experiment-evidence.md) |
 | 3-8 | 智能体化 RAG 与非智能体化 RAG 的对比研究 | 历史缩小机制改编；完整原验收未完成 | [笔记](09-chapter3-experiment-evidence.md) |
@@ -89,7 +89,7 @@
 
 | 编号 | 原书主题 | 个人操作边界 | 记录入口 |
 |---|---|---|---|
-| 4-1 | 主动工具发现 | 历史缩小对照 | [笔记](12-chapter45-experiment-evidence.md) |
+| 4-1 | 主动工具发现 | 123工具双臂各3轮缩小对照已完成并复核 | [本轮台账](20-one-experiment-per-chapter.md) |
 | 4-2 | 感知工具 MCP 服务器 | 历史部分 MCP 验证 | [笔记](12-chapter45-experiment-evidence.md) |
 | 4-3 | 多模态信息提取：三种技术范式的对比分析 | 未执行 | [笔记](12-chapter45-experiment-evidence.md) |
 | 4-4 | 执行工具 MCP 服务器 | 历史部分 MCP 验证 | [笔记](12-chapter45-experiment-evidence.md) |
@@ -113,7 +113,7 @@
 | 5-10 | 自适应的日志解析系统 | 历史解析与进程内替换 | [笔记](12-chapter45-experiment-evidence.md) |
 | 5-11 | 生产日志的智能诊断系统 | 历史合成日志诊断与修复 | [笔记](12-chapter45-experiment-evidence.md) |
 | 5-12 | 动态表单生成的意图澄清系统 | 历史表单缩小实测 | [笔记](12-chapter45-experiment-evidence.md) |
-| 5-13 | 自然语言交互的 ERP Agent | 历史 SQLite 改编 | [笔记](12-chapter45-experiment-evidence.md) |
+| 5-13 | 自然语言交互的 ERP Agent | SQLite三查询适配已完成，本轮只读重放正确 | [本轮台账](20-one-experiment-per-chapter.md) |
 | 5-14 | 对话式界面定制系统 | 未执行 | [笔记](12-chapter45-experiment-evidence.md) |
 | 5-15 | 动态生成软件的权限内嵌数据对象 | 历史网关机制演示；非独立隔离 | [笔记](12-chapter45-experiment-evidence.md) |
 | 5-16 | 开发一个能创造 Agent 的 Agent | 历史短循环与模拟响应协议测试 | [笔记](12-chapter45-experiment-evidence.md) |
@@ -125,7 +125,7 @@
 | 编号 | 原书主题 | 个人操作边界 | 记录入口 |
 |---|---|---|---|
 | 6-1 | 事件驱动的邮件处理 Agent | 阅读已整理；正式实验未执行 | [笔记](13-chapter6-interaction.md) |
-| 6-2 | 带并行执行和打断能力的异步 Agent | 阅读已整理；正式实验未执行 | [笔记](13-chapter6-interaction.md) |
+| 6-2 | 带并行执行和打断能力的异步 Agent | 四场景DeepSeek适配已完成，初次失败与两次修正保留 | [本轮台账](20-one-experiment-per-chapter.md) |
 | 6-3 | 模型原生异步与回合中途引导 | 阅读已整理；正式实验未执行 | [笔记](13-chapter6-interaction.md) |
 | 6-4 | 构建传统语音 Agent | 阅读已整理；正式实验未执行 | [笔记](13-chapter6-interaction.md) |
 | 6-5 | 使用 Qwen2-Audio 模拟流式语音感知 | 阅读已整理；正式实验未执行 | [笔记](13-chapter6-interaction.md) |
@@ -150,7 +150,7 @@
 | 7-3 | 构建基于 Rubric 的用户记忆评估系统 | 阅读已整理；正式实验未执行 | [笔记](14-chapter7-evaluation.md) |
 | 7-4 | Advanced JSON Cards 与 RAG 的对比评估 | 阅读已整理；正式实验未执行 | [笔记](14-chapter7-evaluation.md) |
 | 7-5 | 构建全自动 TTS 质量评估流水线 | 阅读已整理；正式实验未执行 | [笔记](14-chapter7-evaluation.md) |
-| 7-6 | 对 AndroidWorld 失败轨迹做失败归因 | 阅读已整理；正式实验未执行 | [笔记](14-chapter7-evaluation.md) |
+| 7-6 | 对 AndroidWorld 失败轨迹做失败归因 | 原书离线原日志复分析已完成，10独立标注+3前缀 | [本轮台账](20-one-experiment-per-chapter.md) |
 | 7-7 | 轨迹前缀边界评估：同一上下文的多种表示 | 阅读已整理；正式实验未执行 | [笔记](14-chapter7-evaluation.md) |
 | 7-8 | 从配对比较数据构建模型排行榜 | 阅读已整理；正式实验未执行 | [笔记](14-chapter7-evaluation.md) |
 | 7-9 | 在固定 Coding Harness 中测量模型的行动阈值 | 阅读已整理；正式实验未执行 | [笔记](14-chapter7-evaluation.md) |
@@ -166,7 +166,7 @@
 
 | 编号 | 原书主题 | 个人操作边界 | 记录入口 |
 |---|---|---|---|
-| 8-1 | Q-learning 在寻宝游戏中的表现 | 阅读已整理；正式实验未执行 | [笔记](15-chapter8-post-training.md) |
+| 8-1 | Q-learning 在寻宝游戏中的表现 | 原环境原Q-learning已完成，3seed×10000训练局及评估 | [本轮台账](20-one-experiment-per-chapter.md) |
 | 8-2 | 传统 RL 与 LLM Agent 的对比研究 | 阅读已整理；正式实验未执行 | [笔记](15-chapter8-post-training.md) |
 | 8-3 | 从头训练 LLM——算法改进的威力 | 阅读已整理；正式实验未执行 | [笔记](15-chapter8-post-training.md) |
 | 8-4 | 自己训练 VLM | 阅读已整理；正式实验未执行 | [笔记](15-chapter8-post-training.md) |
@@ -197,7 +197,7 @@
 | 9-3 | 基于失败轨迹优化航空客服的系统 Prompt | 阅读已整理；正式实验未执行 | [笔记](16-chapter9-continuous-evolution.md) |
 | 9-4 | 从用户反馈中进化需求澄清与 Spec 确认 Skill | 阅读已整理；正式实验未执行 | [笔记](16-chapter9-continuous-evolution.md) |
 | 9-5 | 从浏览器轨迹生成可验证工作流 | 阅读已整理；正式实验未执行 | [笔记](16-chapter9-continuous-evolution.md) |
-| 9-6 | 由失败轨迹触发 Agent 自我修改 | 阅读已整理；正式实验未执行 | [笔记](16-chapter9-continuous-evolution.md) |
+| 9-6 | 由失败轨迹触发 Agent 自我修改 | 本机纯策略执行器适配已完成，原Docker门不通过 | [本轮台账](20-one-experiment-per-chapter.md) |
 | 9-7 | 由用户反馈触发高风险操作确认门禁 | 阅读已整理；正式实验未执行 | [笔记](16-chapter9-continuous-evolution.md) |
 | 9-8 | 把这本书交给 Hermes：它能升级自己吗？ | 阅读已整理；正式实验未执行 | [笔记](16-chapter9-continuous-evolution.md) |
 | 9-9 | 评估 Agent 是否在持续进化 | 阅读已整理；正式实验未执行 | [笔记](16-chapter9-continuous-evolution.md) |
@@ -208,7 +208,7 @@
 
 | 编号 | 原书主题 | 个人操作边界 | 记录入口 |
 |---|---|---|---|
-| 10-1 | 共享上下文中的多角色转换——系统提示词与 Skill 的对比 | 阅读已整理；正式实验未执行 | [笔记](17-chapter10-multi-agent.md) |
+| 10-1 | 共享上下文中的多角色转换——系统提示词与 Skill 的对比 | 两任务双臂小样本适配已完成，预算耗尽失败保留 | [本轮台账](20-one-experiment-per-chapter.md) |
 | 10-2 | 书籍翻译 Agent | 阅读已整理；正式实验未执行 | [笔记](17-chapter10-multi-agent.md) |
 | 10-3 | 自主编排的电话 + 电脑 Agent | 阅读已整理；正式实验未执行 | [笔记](17-chapter10-multi-agent.md) |
 | 10-4 | 同时从多个网站搜集信息的 Agent | 阅读已整理；正式实验未执行 | [笔记](17-chapter10-multi-agent.md) |
